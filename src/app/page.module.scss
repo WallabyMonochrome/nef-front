@@ -1,0 +1,17 @@
+.container {
+  background: radial-gradient(circle, rgba(0, 0, 40, 1), rgba(14, 20, 30, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  gap: 24px;
+
+  h1, h2, h3, p, div {
+    color: white;
+  }
+  h1 {
+    font-size: 42px;
+  }
+}
+
