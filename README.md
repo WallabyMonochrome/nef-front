@@ -1,34 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to start
 
-## Getting Started
+```cp .env.example .env.local```
 
-First, run the development server:
+Update the value for the .env file accordingly
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+``npm i``
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+``npm run dev``
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## How to use it
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Considering you have the backend running this minimal frontend will only display the ID of the nefturian for a given wallet (or the information if the Nefturian has been minted).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It will also show the general distribution of the 1240 Nefturians.
