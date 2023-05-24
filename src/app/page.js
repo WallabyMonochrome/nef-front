@@ -41,12 +41,12 @@ export default function Home() {
                 <div>Alignment {nefturianInfo.alignment}</div>
                 <div>STR {nefturianInfo.attributes.str}</div>
                 <div>CHAR {nefturianInfo.attributes.char}</div>
-                <div>CHAR {nefturianInfo.attributes.mag}</div>
-                <div>CHAR {nefturianInfo.attributes.def}</div>
+                <div>MAG {nefturianInfo.attributes.mag}</div>
+                <div>DEF {nefturianInfo.attributes.def}</div>
             </div>: nefturianInfo}</div>
             <div>FFA: {warRecap.FFA.quantity}</div>
             <div>Samurians: {warRecap.Samurians.quantity}</div>
-            <div>FFA: {warRecap.Cyberians.quantity}</div>
+            <div>Cyberians: {warRecap.Cyberians.quantity}</div>
         </main>
     </ChakraProvider>)
 }
